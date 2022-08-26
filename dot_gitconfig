@@ -1,0 +1,33 @@
+[user]
+  name = Yoshiki Ohashi
+  email = rrrtcdish2@gmail.com
+
+[core]
+  excludesfile = /Users/YOSHIKI/.gitignore_global
+  pager = less -cm
+  quotepath = false
+
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+
+[mergetool "sourcetree"]
+  cmd = /private/var/folders/vj/64f8wmlx0jvbbmrs0ml_fjpm0000gv/T/AppTranslocation/89817CAD-068A-47D6-9879-0752F7FFD6D8/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
+# diff-highlight -> https://qiita.com/yokko93/items/c28771f481f046d0060a
+[alias]
+  nmc = merge --no-commit
+  nma = merge --abort
+
+  tree = log --graph --all --format=\"%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
+  s = status
+  co = checkout
+  diffs = diff --staged
+  logone = log --oneline --pretty=format:'%h [%cd] %d %s <%an>' --date=format:'%Y/%m/%d %H:%M:%S'
+[color]
+  ui = auto
