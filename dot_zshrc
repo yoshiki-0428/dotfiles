@@ -13,6 +13,7 @@ alias g="git"
 alias bru="brew update; brew upgrade; brew cu -a -y; brew cleanup"
 
 alias chezmoi-push="chezmoi git add . && chezmoi git -- commit -m 'fix' && chezmoi git push origin main "
+alias c="clear"
 
 
 
