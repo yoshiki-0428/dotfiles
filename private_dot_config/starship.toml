@@ -2,9 +2,11 @@
 disabled = true
 
 [character]
-format = "❯❯ "
-success_symbol = "❯❯(bold green) "
-error_symbol = "❯❯(bold red) "
+format = "❯ "
+success_symbol = "[✓](bold green) "
+error_symbol = "[✗](bold red) "
+vicmd_symbol = "[V](bold green) "
+
 
 [directory]
 format = "[$path]($style)[$read_only]($read_only_style) "
