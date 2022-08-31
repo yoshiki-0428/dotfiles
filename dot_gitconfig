@@ -21,6 +21,7 @@
   diff = diff-highlight | less
 # diff-highlight -> https://qiita.com/yokko93/items/c28771f481f046d0060a
 [alias]
+  po = pull origin
   nmc = merge --no-commit
   nma = merge --abort
 
