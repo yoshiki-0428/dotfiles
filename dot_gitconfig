@@ -16,10 +16,10 @@
   trustExitCode = true
 
 [pager]
-  log = /opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less
-  show = /opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less
-  diff = /opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight | less
-# diff-highlight -> https://qiita.com/yokko93/items/c28771f481f046d0060a
+  log = diff-so-fancy | less --tabs=4 -RFX
+  show = diff-so-fancy | less --tabs=4 -RFX
+  diff = diff-so-fancy | less --tabs=4 -RFX
+# diff-so-fancy -> https://github.com/so-fancy/diff-so-fancy
 [alias]
   po = pull origin
   nmc = merge --no-commit
@@ -32,3 +32,18 @@
   logone = log --oneline --pretty=format:'%h [%cd] %d %s <%an>' --date=format:'%Y/%m/%d %H:%M:%S'
 [color]
   ui = auto
+
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+
+[color "diff"]
+  meta = 11
+  frag = magenta bold
+  func = 146 bold
+  commit = yellow bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
