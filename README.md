@@ -33,3 +33,8 @@ chmod 777 executable_dot_macos
 brew bundle
 ```
 
+# Update start
+
+```
+chezmoi update
+```
