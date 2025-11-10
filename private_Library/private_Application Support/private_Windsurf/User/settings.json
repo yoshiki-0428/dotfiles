@@ -1,0 +1,30 @@
+{
+    "windsurf.autocompleteSpeed": "default",
+    "windsurf.autoExecutionPolicy": "off",
+    "windsurf.chatFontSize": "default",
+    "windsurf.rememberLastModelSelection": true,
+    "windsurf.openRecentConversation": true,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "windsurf.explainAndFixInCurrentConversation": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "explorer.confirmDelete": false
+}
