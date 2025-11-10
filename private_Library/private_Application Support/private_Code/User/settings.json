@@ -1,0 +1,23 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Spinel",
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true
+  },
+  "hediet.vscode-drawio.resizeImages": null
+}
